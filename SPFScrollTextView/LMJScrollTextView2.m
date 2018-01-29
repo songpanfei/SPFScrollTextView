@@ -25,27 +25,6 @@
 #define DelayCallTime  2.f
 
 @implementation LMJScrollTextView2
-{
-    UITapGestureRecognizer * _tapGesture;
-    
-    UILabel * _currentScrollLabel;
-    UILabel * _standbyScrollLabel;
-
-    NSInteger _index;
-    
-    BOOL _needStop;
-    BOOL _isRunning;
-    
-    BOOL _isHaveSpace;
-}
-#pragma mark - Init
-- (id)init{
-    self = [super init];
-    if (self) {
-        self.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 20); // 设置一个初始的frame
-    }
-    return self;
-}
 
 
 @end
