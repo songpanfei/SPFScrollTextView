@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.description  = "详细描述，详细描述，详细描述"
   s.homepage     = "https://github.com/songpanfei/SPFScrollTextView"
   s.social_media_url   = "http://www.weibo.com/u/5267312788"
-  # s.license= { :type => "MIT", :file => "LICENSE" }
+  s.license= { :type => "MIT", :file => "LICENSE" }
   s.author       = { "songpanfei" => "1173742025@qq.com" }
   s.source       = { :git => "https://github.com/songpanfei/SPFScrollTextView", :tag => s.version }
   s.source_files = "SPFScrollTextView/*.{h,m}"
