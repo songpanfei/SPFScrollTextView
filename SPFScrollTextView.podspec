@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://www.weibo.com/u/5267312788"
   s.license= { :type => "MIT", :file => "LICENSE" }
   s.author       = { "songpanfei" => "1173742025@qq.com" }
-  s.source       = { :git => "https://github.com/songpanfei/SPFScrollTextView", :tag => s.version }
+  s.source       = { :git => "https://github.com/songpanfei/SPFScrollTextView.git", :tag => s.version }
   s.source_files = "SPFScrollTextView/*.{h,m}"
   # s.ios.deployment_target = '8.0'
-  # s.frameworks   = 'UIKit'
+  s.frameworks   = 'UIKit'
   s.requires_arc = true
 end
