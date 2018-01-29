@@ -14,12 +14,12 @@
 
 @interface UIView (LMJScrollTextView2Extension)
 
-@property (nonatomic) CGFloat lmj_top;
-@property (nonatomic) CGFloat lmj_right;
-@property (nonatomic) CGFloat lmj_bottom;
-@property (nonatomic) CGFloat lmj_left;
-@property (nonatomic) CGFloat lmj_width;
-@property (nonatomic) CGFloat lmj_height;
+@property (nonatomic,assign) CGFloat lmj_top;
+@property (nonatomic,assign) CGFloat lmj_right;
+@property (nonatomic,assign) CGFloat lmj_bottom;
+@property (nonatomic,assign) CGFloat lmj_left;
+@property (nonatomic,assign) CGFloat lmj_width;
+@property (nonatomic,assign) CGFloat lmj_height;
 
 @end
 
